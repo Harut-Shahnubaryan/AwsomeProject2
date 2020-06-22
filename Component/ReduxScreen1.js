@@ -27,7 +27,6 @@ class ReduxScreen1 extends React.Component {
     return (
       <View style={{width: 100, height: 100}}>
         {this.state.albumImages.map((elem, i) => {
-
           return (
             <TouchableOpacity
               onPress={this.navigate.bind(this, elem, i)}
